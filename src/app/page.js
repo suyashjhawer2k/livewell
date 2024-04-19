@@ -13,7 +13,7 @@ function page() {
   const router = useRouter();
   const [selectedChatroom, setSelectedChatroom] = useState(null);
 
-  useEffect(() => {
+  useEffect(() => { 
     const unsubscribe = onAuthStateChanged(auth, async (user) => {
       if (user) {
         const docRef = doc(firestore, 'users', user.uid);
