@@ -2,6 +2,13 @@
 
 My application serves as a platform facilitating seamless communication between medical professionals and patients. During the registration process, users are provided with the option to identify themselves as either a doctor or a patient, and they can also personalize their profiles by adding a random avatar. The source code for the application is available on [GitHub](https://github.com/suyashjhawer2k/livewell), where users can explore the codebase, contribute, or report issues. Once deployed, the application is accessible at https://livewell-alpha.vercel.app, providing users with a convenient and reliable platform for communication. After logging in, users are greeted with a user-friendly interface featuring three primary buttons: "Users," "Chatrooms," and "Logout." The user experience is tailored based on the role selected during registration. For instance, if I log in as a doctor, I only see patients listed in the "Users" tab, and vice versa for patients. To initiate a conversation, I simply click on the desired individual from the "Users" tab, which instantly adds them to a chat room. Subsequently, clicking on the same user within the "Chatrooms" tab seamlessly transitions to the chat interface, facilitating uninterrupted communication. Behind the scenes, my application leverages Firebase Authentication for secure user management and Firestore for efficient storage and retrieval of chat data, ensuring a robust and reliable user experience..
 
+- Clone the repo 
+- cd to frontend/chatapp
+- run npm i 
+- change the credentials in lib/firebase.js 
+- run npm run dev 
+- go to localhost:3000
+
 ## My App Functionalities
 
 Authentication and User Management:
